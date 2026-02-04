@@ -7,7 +7,7 @@ function start() {
     `${name}, mujhe tumhari company bahut achhi lagti hai.
 Tum respectful, kind aur genuine ho 🙂
 
-Kya tum mere saath Valentine share karna chahogi? 💖`;
+Kya tum mere saath meri personal cheeze aur apna pyar share krna chaogi? 💖`;
 
   document.getElementById("buttons").classList.remove("hidden");
   music.play();
