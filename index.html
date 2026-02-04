@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Just One Question 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <div class="card">
+    <h1>Hey 💌</h1>
+
+    <input type="text" id="name" placeholder="Enter your name 🌸">
+
+    <p id="text">
+      Mujhe tumse ek chhoti si baat poochni hai 🙂
+    </p>
+
+    <button onclick="start()">Click Here</button>
+
+    <div id="buttons" class="hidden">
+      <button class="yes" onclick="yes()">Yes 💖</button>
+      <button class="no" onclick="no()">No 🙂</button>
+    </div>
+  </div>
+</div>
+
+<div class="hearts"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
